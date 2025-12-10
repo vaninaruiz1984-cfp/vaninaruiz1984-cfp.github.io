@@ -1,0 +1,49 @@
+body{
+    margin:0%;
+    background-color: aquamarine;
+}
+header{
+    display: flex;
+}
+nav{
+    background-color: antiquewhite;
+    width: 150px ;
+    height: 100vh;
+    position: fixed;
+}
+nav a {
+    text-decoration: none;
+    color: chocolate;
+    padding: 20px;
+    display: block;
+}
+ul {
+    list-style: none;
+}
+a:hover{
+    background-color:aquamarine;
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 8px 2px rgb(238, 119, 138);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+form{
+    background-color: azure;
+    margin-left: 38%;
+    width:300px;
+    padding: 3%;
+    text-align: center;
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 5%;
+    margin-top: 4%;
+}
+footer{
+    background-color: azure;
+    text-align: center;
+    padding: 2%;
+    margin-top: 10% ;
+}
